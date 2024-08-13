@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "algorithm_study.exe"
+			"path" : "algorithmStudy_Cpp.exe"
 		},
 		{
-			"path" : "algorithm_study.pdb"
+			"path" : "algorithmStudy_Cpp.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "algorithm_study::@6890427a1f51a3e7e1df",
+	"id" : "algorithmStudy_Cpp::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "algorithm_study",
-	"nameOnDisk" : "algorithm_study.exe",
+	"name" : "algorithmStudy_Cpp",
+	"nameOnDisk" : "algorithmStudy_Cpp.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "14719.cpp",
+			"path" : "Sources/14719.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

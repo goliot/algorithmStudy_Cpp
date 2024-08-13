@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.24)
-project(algorithm_study)
+project(algorithmStudy_Cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(algorithm_study
-        14719.cpp)
+add_executable(algorithmStudy_Cpp
+        Sources/14719.cpp)

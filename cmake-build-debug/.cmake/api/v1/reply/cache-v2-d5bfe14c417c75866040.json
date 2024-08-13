@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/sumin/CLionProjects/algorithm_study/cmake-build-debug"
+			"value" : "c:/Users/sumin/CLionProjects/algorithmStudy_Cpp/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/sumin/CLionProjects/algorithm_study/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/sumin/CLionProjects/algorithmStudy_Cpp/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/sumin/CLionProjects/algorithm_study"
+			"value" : "C:/Users/sumin/CLionProjects/algorithmStudy_Cpp"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "algorithm_study"
+			"value" : "algorithmStudy_Cpp"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1266,6 +1266,42 @@
 			"value" : "TRUE"
 		},
 		{
+			"name" : "algorithmStudy_Cpp_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/sumin/CLionProjects/algorithmStudy_Cpp/cmake-build-debug"
+		},
+		{
+			"name" : "algorithmStudy_Cpp_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "algorithmStudy_Cpp_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/sumin/CLionProjects/algorithmStudy_Cpp"
+		},
+		{
 			"name" : "algorithm_study_BINARY_DIR",
 			"properties" : 
 			[
@@ -1275,7 +1311,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/sumin/CLionProjects/algorithm_study/cmake-build-debug"
+			"value" : "C:/Users/sumin/CLionProjects/algorithmStudy_Cpp/cmake-build-debug"
 		},
 		{
 			"name" : "algorithm_study_IS_TOP_LEVEL",
@@ -1299,7 +1335,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/sumin/CLionProjects/algorithm_study"
+			"value" : "C:/Users/sumin/CLionProjects/algorithmStudy_Cpp"
 		}
 	],
 	"kind" : "cache",
