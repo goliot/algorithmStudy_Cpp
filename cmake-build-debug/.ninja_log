@@ -1,12 +1,12 @@
 # ninja log v5
 3	339	7453599807265418	CMakeFiles/algorithmStudy_Cpp.dir/Sources/15649.cpp.obj	324d91a504ab77ff
 1	247	7455017935356445	CMakeFiles/algorithmStudy_Cpp.dir/Sources/6603.cpp.obj	9a4f222a649e1322
-3	331	7464467444915909	build.ninja	9be69c9e03d9711b
+3	331	7466249771289586	build.ninja	9be69c9e03d9711b
 2	412	7454283048683697	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2573.cpp.obj	67ab0fa81faaf7f7
 523	740	7452702688557003	algorithm_study.exe	c586e803dc7884a7
 7	1630	7454317467346940	CMakeFiles/algorithmStudy_Cpp.dir/Sources/5972.cpp.obj	a434262189ffa811
 2	620	7452709712136031	CMakeFiles/algorithmStudy_Cpp.dir/Sources/14719.cpp.obj	cd8a98ad91468151
-339	464	7463926758398272	algorithmStudy_Cpp.exe	a95b4a0ae754a886
+325	454	7464477863065023	algorithmStudy_Cpp.exe	8d0cdd72fc1cc04d
 3	338	7454300129781022	CMakeFiles/algorithmStudy_Cpp.dir/Sources/1504.cpp.obj	4ab7f3a2c257b7dc
 9	809	7454332553638092	CMakeFiles/algorithmStudy_Cpp.dir/Sources/17396.cpp.obj	58dc2cb437a7ff1c
 5	1046	7454363638821413	CMakeFiles/algorithmStudy_Cpp.dir/Sources/20168.cpp.obj	b5b7bd9263484e59
@@ -22,15 +22,6 @@
 3	344	7463883445557576	CMakeFiles/algorithmStudy_Cpp.dir/Sources/1822.cpp.obj	c4670a0e89bdd94
 0	418	7463905342946087	CMakeFiles/algorithmStudy_Cpp.dir/Sources/16401.cpp.obj	3fae09a6c185cb8a
 3	338	7463926757169196	CMakeFiles/algorithmStudy_Cpp.dir/Sources/14921.cpp.obj	9c5d3bf3576a895a
-0	350	7464467979152882	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2467.cpp.obj	b82feabb1957c606
-352	487	7464467980505040	algorithmStudy_Cpp.exe	8d0cdd72fc1cc04d
-3	337	7464468961492598	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2467.cpp.obj	b82feabb1957c606
-338	482	7464468962926734	algorithmStudy_Cpp.exe	8d0cdd72fc1cc04d
-5	316	7464469377919998	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2467.cpp.obj	b82feabb1957c606
-316	425	7464469378980480	algorithmStudy_Cpp.exe	8d0cdd72fc1cc04d
-4	319	7464470864285865	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2467.cpp.obj	b82feabb1957c606
-319	433	7464470865377820	algorithmStudy_Cpp.exe	8d0cdd72fc1cc04d
-3	1784	7464474917075402	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2467.cpp.obj	b82feabb1957c606
-1784	2005	7464474919250017	algorithmStudy_Cpp.exe	8d0cdd72fc1cc04d
 3	324	7464477861793708	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2467.cpp.obj	b82feabb1957c606
-325	454	7464477863065023	algorithmStudy_Cpp.exe	8d0cdd72fc1cc04d
+1	1307	7466254588973993	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2003.cpp.obj	674b2f7ccb3c072a
+1309	1661	7466254592390859	algorithmStudy_Cpp.exe	3b843ff6868ffcfb
