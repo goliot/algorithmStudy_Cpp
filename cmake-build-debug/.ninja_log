@@ -1,13 +1,13 @@
 # ninja log v5
 3	339	7453599807265418	CMakeFiles/algorithmStudy_Cpp.dir/Sources/15649.cpp.obj	324d91a504ab77ff
 1	247	7455017935356445	CMakeFiles/algorithmStudy_Cpp.dir/Sources/6603.cpp.obj	9a4f222a649e1322
-3	331	7473340965816478	build.ninja	9be69c9e03d9711b
+3	331	7474025521444258	build.ninja	9be69c9e03d9711b
 2	412	7454283048683697	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2573.cpp.obj	67ab0fa81faaf7f7
 523	740	7452702688557003	algorithm_study.exe	c586e803dc7884a7
 3	374	7471662785799322	CMakeFiles/algorithmStudy_Cpp.dir/Sources/11652.cpp.obj	e3a851eb235182dd
 7	1630	7454317467346940	CMakeFiles/algorithmStudy_Cpp.dir/Sources/5972.cpp.obj	a434262189ffa811
 2	620	7452709712136031	CMakeFiles/algorithmStudy_Cpp.dir/Sources/14719.cpp.obj	cd8a98ad91468151
-826	1029	7472261373165479	algorithmStudy_Cpp.exe	7a55be0e793b31e
+678	992	7473348269584217	algorithmStudy_Cpp.exe	ac6cb12163dca4b6
 3	338	7454300129781022	CMakeFiles/algorithmStudy_Cpp.dir/Sources/1504.cpp.obj	4ab7f3a2c257b7dc
 9	809	7454332553638092	CMakeFiles/algorithmStudy_Cpp.dir/Sources/17396.cpp.obj	58dc2cb437a7ff1c
 5	1046	7454363638821413	CMakeFiles/algorithmStudy_Cpp.dir/Sources/20168.cpp.obj	b5b7bd9263484e59
@@ -32,9 +32,6 @@
 5	766	7467106993047161	CMakeFiles/algorithmStudy_Cpp.dir/Sources/3151.cpp.obj	e537ca5dc80d9466
 3	381	7471352168129352	CMakeFiles/algorithmStudy_Cpp.dir/Sources/11055.cpp.obj	91b2fea881fea2c5
 4	826	7472261371309192	CMakeFiles/algorithmStudy_Cpp.dir/Sources/13414.cpp.obj	d56a3da5b76ffa8f
-1	1337	7473346864967370	CMakeFiles/algorithmStudy_Cpp.dir/Sources/14442.cpp.obj	617e026d85e4dda2
-1339	1817	7473346869657388	algorithmStudy_Cpp.exe	ac6cb12163dca4b6
-5	581	7473347601046045	CMakeFiles/algorithmStudy_Cpp.dir/Sources/14442.cpp.obj	617e026d85e4dda2
-581	766	7473347602803710	algorithmStudy_Cpp.exe	ac6cb12163dca4b6
 3	677	7473348266567558	CMakeFiles/algorithmStudy_Cpp.dir/Sources/14442.cpp.obj	617e026d85e4dda2
-678	992	7473348269584217	algorithmStudy_Cpp.exe	ac6cb12163dca4b6
+1	347	7474028124292553	CMakeFiles/algorithmStudy_Cpp.dir/Sources/20922.cpp.obj	cd5a1ce83dd48c28
+349	620	7474028126984341	algorithmStudy_Cpp.exe	16464fbf6f545111
