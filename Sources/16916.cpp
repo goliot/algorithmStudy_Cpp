@@ -7,7 +7,7 @@ vector<int> fail(const string &p) {
     vector<int> table(p.length());
     int j = 0;
     for(int i=1; i<p.length(); i++) {
-        while(p[i] != p[j] & j > 0) j = table[j - 1];
+        while(p[i] != p[j] && j > 0) j = table[j - 1];
         if(p[i] == p[j]) table[i] = ++j;
     }
     return table;
