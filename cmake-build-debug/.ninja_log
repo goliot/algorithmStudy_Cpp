@@ -1,7 +1,7 @@
 # ninja log v5
 3	339	7453599807265418	CMakeFiles/algorithmStudy_Cpp.dir/Sources/15649.cpp.obj	324d91a504ab77ff
 1	247	7455017935356445	CMakeFiles/algorithmStudy_Cpp.dir/Sources/6603.cpp.obj	9a4f222a649e1322
-3	331	7521424934716909	build.ninja	9be69c9e03d9711b
+3	331	7521631668959107	build.ninja	9be69c9e03d9711b
 2	412	7454283048683697	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2573.cpp.obj	67ab0fa81faaf7f7
 523	740	7452702688557003	algorithm_study.exe	c586e803dc7884a7
 3	374	7471662785799322	CMakeFiles/algorithmStudy_Cpp.dir/Sources/11652.cpp.obj	e3a851eb235182dd
@@ -10,7 +10,7 @@
 1	347	7474028124292553	CMakeFiles/algorithmStudy_Cpp.dir/Sources/20922.cpp.obj	cd5a1ce83dd48c28
 2	620	7452709712136031	CMakeFiles/algorithmStudy_Cpp.dir/Sources/14719.cpp.obj	cd8a98ad91468151
 7	936	7513650140672865	CMakeFiles/algorithmStudy_Cpp.dir/Sources/5427.cpp.obj	98b5a3eab363a930
-1371	1705	7521414395084398	algorithmStudy_Cpp.exe	5f3fc3a48e027301
+1007	1364	7521438230748467	algorithmStudy_Cpp.exe	8de0b24a53886666
 22	928	7500762481055205	CMakeFiles/algorithmStudy_Cpp.dir/Sources/5014.cpp.obj	65640de4cdd4a4ef
 3	338	7454300129781022	CMakeFiles/algorithmStudy_Cpp.dir/Sources/1504.cpp.obj	4ab7f3a2c257b7dc
 9	809	7454332553638092	CMakeFiles/algorithmStudy_Cpp.dir/Sources/17396.cpp.obj	58dc2cb437a7ff1c
@@ -57,4 +57,5 @@
 3	892	7516292426288211	CMakeFiles/algorithmStudy_Cpp.dir/Sources/1781.cpp.obj	da86101dacd9092d
 0	348	7516314001159829	CMakeFiles/algorithmStudy_Cpp.dir/Sources/9935.cpp.obj	370f61154ca323f1
 1	1003	7521438227220087	CMakeFiles/algorithmStudy_Cpp.dir/Sources/11779.cpp.obj	2b67b87d714b06a7
-1007	1364	7521438230748467	algorithmStudy_Cpp.exe	8de0b24a53886666
+0	1103	7521637664351380	CMakeFiles/algorithmStudy_Cpp.dir/Sources/17835.cpp.obj	91c96b88e35e3d36
+1106	1393	7521637667108152	algorithmStudy_Cpp.exe	29fc460fd25b4633
