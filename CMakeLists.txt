@@ -4,4 +4,4 @@ project(algorithmStudy_Cpp)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(algorithmStudy_Cpp
-        Sources/13335.cpp)
+        Sources/1325.cpp)
