@@ -4,34 +4,38 @@
 using namespace std;
 
 int k;
-int num[6];
-int v[13];
+int s[14];
+vector<int> res;
 
-void dfs(int start, int depth) {
-    if(depth == 6) {
-        for(int i : num) {
-            cout << i << ' ';
+void dfs(int start, int cnt) {
+    if(cnt == 6) {
+        for(int n : res) {
+            cout << n << " ";
         }
-        cout << endl;
-
+        cout << '\n';
         return;
     }
-    else {
-        for(int i=start; i<k; i++) {
-            num[depth] = v[i];
-            dfs(i+1, depth+1);
-        }
+
+    for(int i=start; i<k; i++) {
+        res.push_back(s[i]);
+        dfs(i + 1, cnt + 1);
+        res.pop_back();
     }
 }
 
 int main() {
     while(true) {
         cin >> k;
-        if(k == 0) return 0;
+        if(k == 0) break;
+
+        fill(begin(s), end(s), 0);
+
         for(int i=0; i<k; i++) {
-            cin >> v[i];
+            cin >> s[i];
         }
         dfs(0, 0);
-        cout << endl;
+        cout << '\n';
     }
+
+    return 0;
 }
