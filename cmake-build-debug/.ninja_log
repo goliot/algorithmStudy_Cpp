@@ -1,7 +1,7 @@
 # ninja log v5
 3	339	7453599807265418	CMakeFiles/algorithmStudy_Cpp.dir/Sources/15649.cpp.obj	324d91a504ab77ff
 3	321	7549120381027699	CMakeFiles/algorithmStudy_Cpp.dir/Sources/6603.cpp.obj	9a4f222a649e1322
-1	216	7568952175810833	build.ninja	9be69c9e03d9711b
+1	216	7600179888987265	build.ninja	9be69c9e03d9711b
 2	412	7454283048683697	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2573.cpp.obj	67ab0fa81faaf7f7
 523	740	7452702688557003	algorithm_study.exe	c586e803dc7884a7
 7	1630	7454317467346940	CMakeFiles/algorithmStudy_Cpp.dir/Sources/5972.cpp.obj	a434262189ffa811
@@ -11,7 +11,7 @@
 7	1255	7514719456709242	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2146.cpp.obj	c304b8c3501ec500
 7	936	7513650140672865	CMakeFiles/algorithmStudy_Cpp.dir/Sources/5427.cpp.obj	98b5a3eab363a930
 2	620	7452709712136031	CMakeFiles/algorithmStudy_Cpp.dir/Sources/14719.cpp.obj	cd8a98ad91468151
-444	627	7568950844644485	algorithmStudy_Cpp.exe	4fb3405af73c2363
+520	875	7600174332057887	algorithmStudy_Cpp.exe	f660ce35e2ef6457
 22	928	7500762481055205	CMakeFiles/algorithmStudy_Cpp.dir/Sources/5014.cpp.obj	65640de4cdd4a4ef
 3	338	7454300129781022	CMakeFiles/algorithmStudy_Cpp.dir/Sources/1504.cpp.obj	4ab7f3a2c257b7dc
 9	809	7454332553638092	CMakeFiles/algorithmStudy_Cpp.dir/Sources/17396.cpp.obj	58dc2cb437a7ff1c
@@ -93,3 +93,10 @@
 4	358	7568929489423727	CMakeFiles/algorithmStudy_Cpp.dir/Sources/14650.cpp.obj	d0634b4a05c52156
 1	311	7568938415196270	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2992.cpp.obj	4a867df8ae802d56
 4	443	7568950842846963	CMakeFiles/algorithmStudy_Cpp.dir/Sources/10597.cpp.obj	5ba1e0c2ad7c4b85
+3	263	7574242296266380	CMakeFiles/algorithmStudy_Cpp.dir/Sources/Practice.cpp.obj	8a450791bc5dae73
+3	267	7600157394665457	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2660.cpp.obj	5e227379f035e764
+1	517	7600174328497498	CMakeFiles/algorithmStudy_Cpp.dir/Sources/1707.cpp.obj	f2f22858557c30b0
+1	383	7600197646225584	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2617.cpp.obj	e5d4180b8e60798a
+385	540	7600197647770712	algorithmStudy_Cpp.exe	8609446310549966
+3	350	7600198218201617	CMakeFiles/algorithmStudy_Cpp.dir/Sources/2617.cpp.obj	e5d4180b8e60798a
+350	493	7600198219606847	algorithmStudy_Cpp.exe	8609446310549966
