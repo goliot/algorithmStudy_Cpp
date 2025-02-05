@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int n, m, cnt = 0, rCnt = 0, res = 0;
+int n, m, res = 0;
 int goalNum;
 vector<vector<int> > graph;
 vector<vector<int> > rGraph;
@@ -23,17 +23,6 @@ void dfs(const vector<vector<int> >& g, bool* v, int cur, int& count)
     }
 }
 
-void clear()
-{
-    cnt = 0;
-    rCnt = 0;
-    for(int i=1; i<=n; i++)
-    {
-        visited[i] = false;
-        rVisited[i] = false;
-    }
-}
-
 int main()
 {
     cin >> n >> m;
@@ -51,10 +40,13 @@ int main()
 
     for(int i=1; i<=n; i++)
     {
-        clear();
+        fill(visited, visited + n + 1, false);
+        fill(rVisited, rVisited + n + 1, false);
 
-        dfs(graph, visited, i, cnt);
-        dfs(rGraph, rVisited, i, rCnt);
+        int cnt = 0, rCnt = 0;
+
+        dfs(graph, visited, i, cnt); //자기보다 가벼운 구슬 수
+        dfs(rGraph, rVisited, i, rCnt); //자기보다 무거운 구슬 수
 
         if(cnt >= goalNum || rCnt >= goalNum)
         {
