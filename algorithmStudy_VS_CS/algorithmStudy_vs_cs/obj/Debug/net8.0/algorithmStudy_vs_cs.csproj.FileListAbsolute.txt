@@ -1,0 +1,15 @@
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\bin\Debug\net8.0\algorithmStudy_vs_cs.exe
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\bin\Debug\net8.0\algorithmStudy_vs_cs.deps.json
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\bin\Debug\net8.0\algorithmStudy_vs_cs.runtimeconfig.json
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\bin\Debug\net8.0\algorithmStudy_vs_cs.dll
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\bin\Debug\net8.0\algorithmStudy_vs_cs.pdb
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\obj\Debug\net8.0\algorithmStudy_vs_cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\obj\Debug\net8.0\algorithmStudy_vs_cs.AssemblyInfoInputs.cache
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\obj\Debug\net8.0\algorithmStudy_vs_cs.AssemblyInfo.cs
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\obj\Debug\net8.0\algorithmStudy_vs_cs.csproj.CoreCompileInputs.cache
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\obj\Debug\net8.0\algorithmStudy_vs_cs.sourcelink.json
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\obj\Debug\net8.0\algorithmStudy_vs_cs.dll
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\obj\Debug\net8.0\refint\algorithmStudy_vs_cs.dll
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\obj\Debug\net8.0\algorithmStudy_vs_cs.pdb
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\obj\Debug\net8.0\algorithmStudy_vs_cs.genruntimeconfig.cache
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CS\algorithmStudy_vs_cs\algorithmStudy_vs_cs\obj\Debug\net8.0\ref\algorithmStudy_vs_cs.dll
