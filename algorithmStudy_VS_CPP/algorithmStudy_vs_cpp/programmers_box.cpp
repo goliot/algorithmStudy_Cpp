@@ -30,7 +30,7 @@ int findUpper(const int& w, int current)
 int solution(int n, int w, int num) {
     int answer = 0;
 
-    int current = 1;
+    int current = num;
     int upper = 0;
     while (upper <= n)
     {
