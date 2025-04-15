@@ -1,11 +1,2 @@
-﻿  11664.cpp
-C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\algorithmStudy_vs_cpp\11664.cpp(46,16): warning C4838: 'int'에서 'double'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\algorithmStudy_vs_cpp\11664.cpp(46,20): warning C4838: 'int'에서 'double'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\algorithmStudy_vs_cpp\11664.cpp(46,24): warning C4838: 'int'에서 'double'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\algorithmStudy_vs_cpp\11664.cpp(47,16): warning C4838: 'int'에서 'double'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\algorithmStudy_vs_cpp\11664.cpp(47,20): warning C4838: 'int'에서 'double'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\algorithmStudy_vs_cpp\11664.cpp(47,24): warning C4838: 'int'에서 'double'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\algorithmStudy_vs_cpp\11664.cpp(48,16): warning C4838: 'int'에서 'double'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\algorithmStudy_vs_cpp\11664.cpp(48,20): warning C4838: 'int'에서 'double'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\algorithmStudy_vs_cpp\11664.cpp(48,24): warning C4838: 'int'에서 'double'(으)로의 변환에는 축소 변환이 필요합니다.
+﻿  15973.cpp
   algorithmStudy_vs_cpp.vcxproj -> C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\x64\Debug\algorithmStudy_vs_cpp.exe
