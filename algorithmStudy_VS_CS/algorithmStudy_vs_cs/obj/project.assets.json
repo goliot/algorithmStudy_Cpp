@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\skku04\\Documents\\GitHub\\algorithmStudy_Cpp\\algorithmStudy_VS_CS\\algorithmStudy_vs_cs\\algorithmStudy_vs_cs\\algorithmStudy_vs_cs.csproj",
+      "projectUniqueName": "C:\\Users\\skku04\\Documents\\GitHub\\algorithmStudy_Cpp\\algorithmStudy_VS_CS\\algorithmStudy_vs_cs\\algorithmStudy_vs_cs.csproj",
       "projectName": "algorithmStudy_vs_cs",
-      "projectPath": "C:\\Users\\skku04\\Documents\\GitHub\\algorithmStudy_Cpp\\algorithmStudy_VS_CS\\algorithmStudy_vs_cs\\algorithmStudy_vs_cs\\algorithmStudy_vs_cs.csproj",
+      "projectPath": "C:\\Users\\skku04\\Documents\\GitHub\\algorithmStudy_Cpp\\algorithmStudy_VS_CS\\algorithmStudy_vs_cs\\algorithmStudy_vs_cs.csproj",
       "packagesPath": "C:\\Users\\skku04\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\skku04\\Documents\\GitHub\\algorithmStudy_Cpp\\algorithmStudy_VS_CS\\algorithmStudy_vs_cs\\algorithmStudy_vs_cs\\obj\\",
+      "outputPath": "C:\\Users\\skku04\\Documents\\GitHub\\algorithmStudy_Cpp\\algorithmStudy_VS_CS\\algorithmStudy_vs_cs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
