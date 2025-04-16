@@ -1,2 +1,5 @@
-﻿  15973.cpp
+﻿  1976.cpp
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\algorithmStudy_vs_cpp\1976.cpp(33,12): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\algorithmStudy_vs_cpp\1976.cpp(33,15): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
+C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\algorithmStudy_vs_cpp\1976.cpp(33,18): warning C4101: 'c' :참조되지 않은 지역 변수입니다.
   algorithmStudy_vs_cpp.vcxproj -> C:\Users\skku04\Documents\GitHub\algorithmStudy_Cpp\algorithmStudy_VS_CPP\x64\Debug\algorithmStudy_vs_cpp.exe
