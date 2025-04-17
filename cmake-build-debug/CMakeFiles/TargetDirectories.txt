@@ -1,3 +1,0 @@
-C:/Users/sumin/CLionProjects/algorithmStudy_Cpp/cmake-build-debug/CMakeFiles/algorithmStudy_Cpp.dir
-C:/Users/sumin/CLionProjects/algorithmStudy_Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/sumin/CLionProjects/algorithmStudy_Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

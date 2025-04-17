@@ -139,8 +139,7 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-16T06:37:09.787Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -150,7 +149,7 @@
               "RelativeDocumentMoniker": "algorithmStudy_vs_cpp\\17352.cpp",
               "ToolTip": "C:\\Users\\skku04\\Documents\\GitHub\\algorithmStudy_Cpp\\algorithmStudy_VS_CPP\\algorithmStudy_vs_cpp\\17352.cpp",
               "RelativeToolTip": "algorithmStudy_vs_cpp\\17352.cpp",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-17T00:32:26.958Z",
               "EditorCaption": ""
@@ -165,8 +164,7 @@
               "RelativeToolTip": "algorithmStudy_vs_cpp\\7511.cpp",
               "ViewState": "AgIAABYAAAAAAAAAAAAqwCAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-16T08:26:21.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T08:26:21.397Z"
             },
             {
               "$type": "Document",
