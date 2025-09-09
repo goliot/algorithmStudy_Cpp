@@ -6,7 +6,7 @@ using namespace std;
 
 int n, res = 0;
 char c;
-int map[51][51];
+int board[51][51];
 int friendCount[51] = { 0, };
 
 void floyd() 
@@ -14,9 +14,9 @@ void floyd()
 	for (int k = 0; k < n; k++) {
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
-				if (map[i][k] != INT_MAX && map[k][j] != INT_MAX)
+				if (board[i][k] != INT_MAX && board[k][j] != INT_MAX)
 				{
-					map[i][j] = min(map[i][j], map[i][k] + map[k][j]);
+					board[i][j] = min(board[i][j], board[i][k] + board[k][j]);
 				}
 			}
 		}
@@ -26,7 +26,7 @@ void floyd()
 int main()
 {
 	cin >> n;
-	fill(&map[0][0], &map[0][0] + 51 * 51, INT_MAX);
+	fill(&board[0][0], &board[0][0] + 51 * 51, INT_MAX);
 	for (int i = 0; i < n; i++) 
 	{
 		for (int j = 0; j < n; j++) 
@@ -34,11 +34,11 @@ int main()
 			cin >> c;
 			if (c == 'Y')
 			{
-				map[i][j] = 1;
+				board[i][j] = 1;
 			}
 			if (i == j)
 			{
-				map[i][j] = 0;
+				board[i][j] = 0;
 			}
 		}
 	}
@@ -47,7 +47,7 @@ int main()
 	for (int i = 0; i < n; i++) {
 		int cnt = 0;
 		for (int j = 0; j < n; j++) {
-			if (map[i][j] <= 2 && i != j) cnt++;
+			if (board[i][j] <= 2 && i != j) cnt++;
 		}
 		res = max(cnt, res);
 	}
