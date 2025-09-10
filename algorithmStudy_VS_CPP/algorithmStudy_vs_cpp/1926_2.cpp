@@ -8,7 +8,7 @@ int max_size = 0;
 int picture_count = 0;
 int dx[4] = { 1, 0, -1, 0 };
 int dy[4] = { 0, 1, 0, -1 };
-int board[501][501];
+int dist[501][501];
 bool visited[501][501];
 int n, m;
 
@@ -28,7 +28,7 @@ int bfs(int x, int y)
 		{
 			int nx = x + dx[i];
 			int ny = y + dy[i];
-			if (nx < 0 || ny < 0 || nx >= n || ny >= m || visited[nx][ny] || board[nx][ny] != 1)
+			if (nx < 0 || ny < 0 || nx >= n || ny >= m || visited[nx][ny] || dist[nx][ny] != 1)
 			{
 				continue;
 			}
@@ -48,14 +48,14 @@ int main()
 	{
 		for (int j = 0; j < m; ++j)
 		{
-			cin >> board[i][j];
+			cin >> dist[i][j];
 		}
 	}
 	for (int i = 0; i < n; ++i)
 	{
 		for (int j = 0; j < m; ++j)
 		{
-			if (board[i][j] == 1 && !visited[i][j])
+			if (dist[i][j] == 1 && !visited[i][j])
 			{
 				max_size = max(max_size, bfs(i, j));
 				picture_count++;

@@ -17,7 +17,7 @@ int ans = -1;
 int dx[6] = { 1, -1, 0, 0, 0, 0 };
 int dy[6] = { 0, 0, 1, -1, 0, 0 };
 int dz[6] = { 0, 0, 0, 0, 1, -1 };
-vector<vector<vector<int>>> board;
+vector<vector<vector<int>>> dist;
 vector<vector<vector<int>>> dist;
 vector<vector<vector<bool>>> visited;
 queue<node> q;
@@ -37,7 +37,7 @@ void bfs()
 			int nz = z + dz[i];
 			int ny = y + dy[i];
 			int nx = x + dx[i];
-			if (nz < 0 || ny < 0 || nx < 0 || nz >= h || ny >= n || nx >= m || visited[nz][ny][nx] || board[nz][ny][nx] != 0)
+			if (nz < 0 || ny < 0 || nx < 0 || nz >= h || ny >= n || nx >= m || visited[nz][ny][nx] || dist[nz][ny][nx] != 0)
 			{
 				continue;
 			}
@@ -51,7 +51,7 @@ void bfs()
 int main()
 {
 	cin >> m >> n >> h;
-	board.assign(h, vector<vector<int>>(n, vector<int>(m, 0)));
+	dist.assign(h, vector<vector<int>>(n, vector<int>(m, 0)));
 	dist.assign(h, vector<vector<int>>(n, vector<int>(m, 0)));
 	visited.assign(h, vector<vector<bool>>(n, vector<bool>(m, false)));
 
@@ -61,8 +61,8 @@ int main()
 		{
 			for (int k = 0; k < m; ++k)
 			{
-				cin >> board[i][j][k];
-				if (board[i][j][k] == 1)
+				cin >> dist[i][j][k];
+				if (dist[i][j][k] == 1)
 				{
 					q.emplace(i, j, k);
 					visited[i][j][k] = true;
@@ -79,7 +79,7 @@ int main()
 		{
 			for (int k = 0; k < m; ++k)
 			{
-				if (board[i][j][k] == 0 && dist[i][j][k] == 0)
+				if (dist[i][j][k] == 0 && dist[i][j][k] == 0)
 				{
 					cout << -1;
 					return 0;

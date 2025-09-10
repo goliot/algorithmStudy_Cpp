@@ -7,7 +7,7 @@ using namespace std;
 int n, m;
 int dist[101][101];
 bool visited[101][101];
-int board[101][101];
+int dist[101][101];
 int dx[4] = { 1, 0, -1, 0 };
 int dy[4] = { 0, 1, 0, -1 };
 
@@ -26,7 +26,7 @@ int bfs()
 		{
 			int nx = x + dx[i];
 			int ny = y + dy[i];
-			if (nx < 0 || ny < 0 || nx >= n || ny >= m || visited[nx][ny] || board[nx][ny] != 1)
+			if (nx < 0 || ny < 0 || nx >= n || ny >= m || visited[nx][ny] || dist[nx][ny] != 1)
 			{
 				continue;
 			}
@@ -49,7 +49,7 @@ int main()
 		{
 			char c;
 			cin >> c;
-			board[i][j] = c - '0';
+			dist[i][j] = c - '0';
 		}
 	}
 

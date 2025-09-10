@@ -9,7 +9,7 @@ int ans = -1;
 int dx[4] = { 1, 0, -1, 0 };
 int dy[4] = { 0, 1, 0, -1 };
 queue<pair<int, int> > q;
-vector<vector<int> > board;
+vector<vector<int> > dist;
 vector<vector<bool> > visited;
 vector<vector<int> > dist;
 
@@ -25,7 +25,7 @@ void bfs()
 		{
 			int nx = x + dx[i];
 			int ny = y + dy[i];
-			if (nx < 0 || ny < 0 || nx >= n|| ny >= m || visited[nx][ny] || board[nx][ny] != 0)
+			if (nx < 0 || ny < 0 || nx >= n|| ny >= m || visited[nx][ny] || dist[nx][ny] != 0)
 			{
 				continue;
 			}
@@ -39,13 +39,13 @@ void bfs()
 int main()
 {
 	cin >> m >> n;
-	board.assign(n, vector<int>(m));
+	dist.assign(n, vector<int>(m));
 	dist.assign(n, vector<int>(m));
 	visited.assign(n, vector<bool>(m));
 	for (int i = 0; i < n; ++i) {
 		for (int j = 0; j < m; ++j) {
-			cin >> board[i][j];
-			if (board[i][j] == 1) {
+			cin >> dist[i][j];
+			if (dist[i][j] == 1) {
 				q.emplace(i, j);
 				visited[i][j] = true;
 				dist[i][j] = 0;
@@ -59,7 +59,7 @@ int main()
 	{
 		for (int j = 0; j < m; ++j)
 		{
-			if (board[i][j] == 0 && dist[i][j] == 0)
+			if (dist[i][j] == 0 && dist[i][j] == 0)
 			{
 				cout << -1;
 				return 0;

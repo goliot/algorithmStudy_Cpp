@@ -3,7 +3,7 @@
 using namespace std;
 
 unordered_set<int> s;
-char board[5][5];
+char dist[5][5];
 int dx[4] = { 1, 0, -1, 0 };
 int dy[4] = { 0, 1, 0, -1 };
 
@@ -23,20 +23,20 @@ void dfs(int cnt, int x, int y, int cur)
 			continue;
 		}
 
-		dfs(cnt + 1, nx, ny, cur * 10 + board[nx][ny]);
+		dfs(cnt + 1, nx, ny, cur * 10 + dist[nx][ny]);
 	}
 }
 
 int main() {
 	for (int i = 0; i < 5; i++) {
 		for (int j = 0; j < 5; j++) {
-			cin >> board[i][j];
+			cin >> dist[i][j];
 		}
 	}
 
 	for (int i = 0; i < 5; i++) {
 		for (int j = 0; j < 5; j++) {
-			dfs(1, i, j, board[i][j]);
+			dfs(1, i, j, dist[i][j]);
 		}
 	}
 
