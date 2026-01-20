@@ -1,21 +1,21 @@
 #include <iostream>
 using namespace std;
 
-int v[1001];
+int graph[1001];
 bool visited[1001] = {false, };
 
 void reset(int n) {
 	for (int i = 0; i <= n; i++) {
 		visited[i] = false;
-		v[i] = 0;
+		graph[i] = 0;
 	}
 }
 
 void dfs(int start) {
 	visited[start] = true;
-	if (!visited[v[start]])
+	if (!visited[graph[start]])
 	{
-		dfs(v[start]);
+		dfs(graph[start]);
 	}
 }
 
@@ -31,7 +31,7 @@ int main()
 
 		for (int i = 1; i <= n; i++) {
 			cin >> x;
-			v[i] = x;
+			graph[i] = x;
 		}
 
 		for (int i = 1; i <= n; i++) {

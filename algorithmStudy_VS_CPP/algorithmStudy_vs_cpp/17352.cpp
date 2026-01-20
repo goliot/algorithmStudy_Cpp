@@ -4,15 +4,15 @@ using namespace std;
 const int MAX = 300001;
 int parent[MAX];
 
-int find(int x) {
+int findParent(int x) {
     if (parent[x] != x)
-        parent[x] = find(parent[x]);
+        parent[x] = findParent(parent[x]);
     return parent[x];
 }
 
 void unionSet(int a, int b) {
-    int rootA = find(a);
-    int rootB = find(b);
+    int rootA = findParent(a);
+    int rootB = findParent(b);
     if (rootA != rootB)
         parent[rootB] = rootA;
 }
@@ -31,9 +31,9 @@ int main() {
         unionSet(a, b);
     }
 
-    int root = find(1);
+    int root = findParent(1);
     for (int i = 2; i <= n; i++) {
-        if (find(i) != root) {
+        if (findParent(i) != root) {
             cout << 1 << " " << i << "\n";
             break;
         }

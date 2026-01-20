@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int n, r, q, u, v;
+int n, r, q, u, graph;
 vector<int> tree[100001];
 int subSize[100001] = { 0, };
 bool visited[100001] = { false, };
@@ -26,9 +26,9 @@ int main() {
 
 	cin >> n >> r >> q;
 	for (int i = 0; i < n-1; i++) {
-		cin >> u >> v;
-		tree[u].push_back(v);
-		tree[v].push_back(u);
+		cin >> u >> graph;
+		tree[u].push_back(graph);
+		tree[graph].push_back(u);
 	}
 	dfs(r);
 

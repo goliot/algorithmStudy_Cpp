@@ -8,11 +8,11 @@ int n, m;
 int parent[100001]; //<루트 부모, 병력 수>
 int troops[100001];
 
-int find(int x)
+int findParent(int x)
 {
 	if (parent[x] != x)
 	{
-		parent[x] = find(parent[x]);
+		parent[x] = findParent(parent[x]);
 	}
 
 	return parent[x];
@@ -41,7 +41,7 @@ vector<int> getGroupMembers(int root)
 	vector<int> members;
 	for (int i = 1; i <= n; i++)
 	{
-		if (find(i) == root) {
+		if (findParent(i) == root) {
 			members.push_back(i);
 		}
 	}
@@ -50,8 +50,8 @@ vector<int> getGroupMembers(int root)
 
 void unionSet(int a, int b)
 {
-	int rootA = find(a);
-	int rootB = find(b);
+	int rootA = findParent(a);
+	int rootB = findParent(b);
 	if (rootA != rootB)
 	{
 		troops[rootA] += troops[rootB];
@@ -61,8 +61,8 @@ void unionSet(int a, int b)
 
 void war(int a, int b)
 {
-	int rootA = find(a);
-	int rootB = find(b);
+	int rootA = findParent(a);
+	int rootB = findParent(b);
 	if (rootA == rootB) return;
 
 	if (troops[rootA] == troops[rootB]) {

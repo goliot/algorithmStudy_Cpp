@@ -5,11 +5,11 @@ using namespace std;
 int cur = 0;
 int parent[100001] = { 0, };
 
-int find(int x)
+int findParent(int x)
 {
 	if (parent[x] != x) 
 	{
-		parent[x] = find(parent[x]);
+		parent[x] = findParent(parent[x]);
 	}
 
 	return parent[x];
@@ -17,8 +17,8 @@ int find(int x)
 
 void unionSet(int a, int b)
 {
-	int rootA = find(a);
-	int rootB = find(b);
+	int rootA = findParent(a);
+	int rootB = findParent(b);
 	if (rootA != rootB)
 	{
 		parent[rootB] = rootA;
@@ -27,7 +27,7 @@ void unionSet(int a, int b)
 
 bool isConnected(int a, int b)
 {
-	return find(a) == find(b);
+	return findParent(a) == findParent(b);
 }
 
 int main()
